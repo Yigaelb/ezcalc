@@ -1,0 +1,47 @@
+﻿cos
+sin
+						return Math.Sin(ParseTerm(ref command) * angleFactor);												
+					case "tan":
+						return Math.Tan(ParseTerm(ref command) * angleFactor);	
+
+					case "acos":
+						return Math.Acos(ParseTerm(ref command)) * (1.0 / angleFactor);
+					case "asin":
+						return Math.Asin(ParseTerm(ref command)) * (1.0 / angleFactor);
+					case "atan":
+						return Math.Atan(ParseTerm(ref command)) * (1.0 / angleFactor);
+
+					case "log":
+						return Math.Log10(ParseTerm(ref command));
+					case "ln":
+						return Math.Log(ParseTerm(ref command));
+
+					case "floor":
+						return Math.Floor(ParseTerm(ref command));
+					case "ceil":
+						return Math.Ceiling(ParseTerm(ref command));
+					case "sqrt":
+						return Math.Sqrt(ParseTerm(ref command));
+					case "cosh":
+						return Math.Cosh(ParseTerm(ref command));
+					case "sinh":
+						return Math.Sinh(ParseTerm(ref command));
+					case "tanh":
+						return Math.Tanh(ParseTerm(ref command));
+					case "round":
+						return Math.Round(ParseTerm(ref command));
+					case "abs":
+						return Math.Abs(ParseTerm(ref command));						
+						// Constants
+					case "e" : // exponent		
+						return Math.E;
+					case "PI" : // pi
+						return Math.PI;
+					case "g":	// acceleration of gravity on earth (m/s)
+						return 9.80665;						
+					case "R":	// Gas Las constant - J / (mol * k)
+						return 9.80665;		
+					case "c":	// Speed of Light in vacuum (m/s)
+						return 2.9979;		
+					case "ANS":
+						return lastAnswer;
