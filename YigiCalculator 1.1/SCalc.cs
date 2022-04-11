@@ -14,9 +14,11 @@ namespace EZCalc
 	public class Calculator : System.Windows.Forms.Form
     {
         #region Version, version date, contact, notes
-        private Version version = new Version(4, 22);
-        private string strContact = "yigiman.ezcalc@gmail.com";
-        private string[] versionNotes = {@"2016-05-25 Fixed x^0 4.22",
+        private Version version = new Version(4, 23);
+        private string strContact = "yigaelbennatan@outlook.com";
+        private string strRepo = "https://github.com/Yigaelb/ezcalc.git";
+        private string[] versionNotes = {@"2022-04-11 Added to git hub 4.23",
+                                         @"2016-05-25 Fixed x^0 4.22",
                                          @"2016-01-25 Fixed coloring and spacing of display 4.21",
                                          @"2016-01-22 Several Answers in one line 4.20",
                                          @"2016-01-22 Reverse bits, bytes nibbles and Command sub menu reorg. Build 4.12",
@@ -1887,7 +1889,7 @@ namespace EZCalc
         }
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            string Message = version.ToString() + " Last build on " + verDate.ToString() + "\nYigaelBen-Natan\n" + strContact;
+            string Message = version.ToString() + " Last build on " + verDate.ToString() + "\nYigaelBen-Natan\n" + strContact + "\nRepo: " + strRepo;
             MessageBox.Show(Message, "EZcalc Version");
         }
         private void CommandMenuItem_Click(object sender, EventArgs e)

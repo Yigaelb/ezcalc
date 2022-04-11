@@ -1,0 +1,15 @@
+F:\git\ezcalc\YigiCalculator 1.1\bin\Release\EZcalc.exe.config
+F:\git\ezcalc\YigiCalculator 1.1\bin\Release\EZcalc.exe
+F:\git\ezcalc\YigiCalculator 1.1\bin\Release\EZcalc.pdb
+F:\git\ezcalc\YigiCalculator 1.1\bin\Release\BigDecimal.dll
+F:\git\ezcalc\YigiCalculator 1.1\obj\x86\Release\EZcalc.csproj.AssemblyReference.cache
+F:\git\ezcalc\YigiCalculator 1.1\obj\x86\Release\EZCalc.frmLoading.resources
+F:\git\ezcalc\YigiCalculator 1.1\obj\x86\Release\EZCalc.frmSimpleExample.resources
+F:\git\ezcalc\YigiCalculator 1.1\obj\x86\Release\EZCalc.frmUsrDefinedExpr.resources
+F:\git\ezcalc\YigiCalculator 1.1\obj\x86\Release\EZcalc.Properties.Resources.resources
+F:\git\ezcalc\YigiCalculator 1.1\obj\x86\Release\EZCalc.Calculator.resources
+F:\git\ezcalc\YigiCalculator 1.1\obj\x86\Release\EZcalc.csproj.GenerateResource.cache
+F:\git\ezcalc\YigiCalculator 1.1\obj\x86\Release\EZcalc.csproj.CoreCompileInputs.cache
+F:\git\ezcalc\YigiCalculator 1.1\obj\x86\Release\EZcalc.csproj.CopyComplete
+F:\git\ezcalc\YigiCalculator 1.1\obj\x86\Release\EZcalc.exe
+F:\git\ezcalc\YigiCalculator 1.1\obj\x86\Release\EZcalc.pdb
